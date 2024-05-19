@@ -12,7 +12,8 @@ pipeline {
     }
     stage('Build React App') {
       steps {
-        sh 'npm install' // Install dependencies
+        sh 'npm install --legacy-peer'
+        sh 'npm install --force'// Install dependencies
       }
     }
     stage('Start React App (Optional)') { // This stage can be removed if not needed
