@@ -12,7 +12,6 @@ pipeline {
     }
     stage('Build React App') {
       steps {
-        sh 'npm install --legacy-peer'
         sh 'npm install --force'// Install dependencies
       }
     }
