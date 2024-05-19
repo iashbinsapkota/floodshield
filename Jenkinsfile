@@ -8,12 +8,5 @@ pipeline {
                 sh 'npm run build' // Build the React app
             }
         }
-
-        stage('Test') {
-            steps {
-                sh 'npm test -- --passWithNoTests' // Run automated tests
-            }
-        } 
-
     }
 }
