@@ -1,0 +1,182 @@
+/* loginStyles.css */
+body {
+    background-color: #fafafa;
+}
+/* Center the form vertically and horizontally */
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+}
+
+/* Flexbox for positioning */
+.form-content {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    max-width: 60%; 
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Center the form heading */
+.login-form h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30pt;
+}
+
+/* Style the form inputs */
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px 40px 12px 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style the Remember me checkbox */
+.login-form .form-check {
+    margin-bottom: 20px;
+}
+
+/* Style the Forgot password link */
+.login-form .text-body {
+    font-size: 14px;
+    padding-bottom: 10px;
+    }
+
+/* Style the Login button */
+.login-form .btn-primary {
+    background-color: #577883;
+    padding: 8px 30px; 
+    border-radius: 8px;
+    color: white;
+    font-size: 15pt;
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 15px;
+}
+
+
+/* Style the Register link */
+.login-form .link-danger {
+    font-size: 14px;
+}
+
+.form-label {
+    font-size: 16px;
+}
+
+.text-body {
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+}
+
+.text-body:hover {
+    color: cornflowerblue;
+}
+
+.link-danger {
+    text-decoration: none;
+    color: grey;
+    font-size: 30pt;
+}
+
+.link-danger:hover {
+    color: cornflowerblue;
+}
+
+/* Center the form vertically and horizontally */
+.reset-password-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+/* Style the form input */
+.reset-password-section input[type="email"] {
+    width: calc(100% - 40px); /* Adjusted width for input */
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style the Reset Password button */
+.reset-password-section .btn-primary {
+    background-color: #577883;
+    padding: 8px 30px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15pt;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* Style the Login link */
+.reset-password-section .link-danger {
+    font-size: 16px;
+    text-decoration: none;
+    color: grey;
+}
+
+.link-danger:hover {
+    color: cornflowerblue;
+}
+
+/* Style the image container */
+.image-container-forgot {
+    padding-left: 20px;
+    max-width: 60%; 
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Style the image inside the container */
+.image-container-forgot img {
+    max-height: 90%; 
+}
+
+/* Style the icon next to email input */
+.input-group-addon {
+    font-size: 16pt;
+
+}
+/* Move up the form heading */
+.reset-password-section h2 {
+    margin-bottom: 10px; 
+    margin-top: 0; 
+    text-align: center;
+    font-size: 32pt;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 12pt;
+    margin-bottom: 30px;
+
+}

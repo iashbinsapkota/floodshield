@@ -1,0 +1,62 @@
+.border-end {
+    background-color: #80bcfc;
+    color: white;
+}
+
+.sidebar-items {
+    height: calc(100vh - 80px); /* Adjust height as needed */
+    padding: 20px; /* Adjust padding as needed */
+    overflow-y: auto;
+}
+
+.sidebar-items ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-items ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar-items {
+    position: fixed;
+    top: 40%;
+    left: 0; /* Adjust position if needed */
+    height: 100vh;
+    width: 200px; /* Adjust width as needed */
+    background-color: #80bcfc;
+    color: white;
+    padding: 20px; /* Adjust padding as needed */
+    overflow-y: auto;
+}
+
+
+.sidebar-items ul li a:hover {
+    color: lightgray;
+}
+
+.fixed-bottom-dropdown {
+    display: none; /* Hide the fixed-bottom dropdown */
+}
+
+.dropdown-toggle {
+    color: white;
+}
+
+.dropdown-toggle:hover {
+    color: lightgray;
+}
+
+.dropdown-menu {
+    background-color: #80bcfc;
+    color: white;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    color: lightgray;
+}
