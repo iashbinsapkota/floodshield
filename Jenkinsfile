@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Get latest code from Git repository
-                    git branch: 'main', url: 'https://github.com/iashbinsapkota/basic.git'
+                    git branch: 'main', url: 'https://github.com/iashbinsapkota/floodshield.git'
                 }
             }
         }
