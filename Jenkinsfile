@@ -1,11 +1,13 @@
 pipeline {
     agent any
-    
+
     stages {
         stage('Build') {
             steps {
-                sh 'npm install' // Install Dependency
-                sh 'npm start' // Build the React app
+                script {
+                    // Get latest code from Git repository
+                    git branch: 'main', url: 'https://github.com/iashbinsapkota/basic.git'
+                }
             }
         }
     }
