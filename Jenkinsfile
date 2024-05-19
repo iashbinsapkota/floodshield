@@ -14,16 +14,6 @@ pipeline {
                 sh 'npm test -- --passWithNoTests' // Run automated tests
             }
         } 
-     
-      post {
-        success {
-            // Archive the build artifact
-                archiveArtifacts artifacts: 'buildArtifact/*.jar'
-        }
-        failure {
-            echo 'Pipeline failed!'
-        }
-    }
 
-}
+    }
 }
