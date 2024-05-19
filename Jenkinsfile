@@ -20,6 +20,9 @@ pipeline {
             // Archive the build artifact
                 archiveArtifacts artifacts: 'buildArtifact/*.jar'
         }
+        failure {
+            echo 'Pipeline failed!'
+        }
     }
 
 }
